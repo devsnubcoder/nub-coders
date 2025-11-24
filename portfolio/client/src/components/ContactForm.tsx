@@ -107,7 +107,7 @@ export default function ContactForm() {
             </div>
             <div>
               <h4 className="font-medium mb-1">Email</h4>
-              <p className="text-[var(--light)]/70">ankitkr23835@gmail.com</p>
+              <p className="text-[var(--light)]/70">support@nubcoder.com</p>
             </div>
           </div>
           
@@ -134,14 +134,7 @@ export default function ContactForm() {
           <div className="mt-8">
             <h4 className="font-medium mb-4">Connect With Me</h4>
             <div className="flex gap-3">
-              <a 
-                href="https://github.com/nub-coders/" 
-                target="_blank" 
-                rel="noreferrer" 
-                className="w-10 h-10 rounded-full bg-[var(--primary)]/10 flex items-center justify-center hover:bg-[var(--primary)]/20 transition-all duration-300"
-              >
-                <i className="fab fa-github"></i>
-              </a>
+                {/* GitHub button removed */}
               <a 
                 href="https://t.me/nub_coder_s" 
                 target="_blank" 

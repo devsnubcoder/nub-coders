@@ -22,7 +22,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     tags: ["React", "Node.js", "MongoDB", "Stripe API"],
     demoLink: "https://ecommerce-demo.nub-coder.tech",
-    codeLink: "https://github.com/nub-coders/ecommerce-platform",
+    codeLink: "",
     badgeText: "Web App",
     badgeClass: "bg-[var(--primary)]/20 text-[var(--primary)]"
   },
@@ -33,7 +33,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     tags: ["React Native", "Firebase", "Redux", "Health API"],
     demoLink: "https://fitness-tracker-demo.nub-coder.tech",
-    codeLink: "https://github.com/nub-coders/fitness-tracker-app",
+    codeLink: "",
     badgeText: "Mobile App",
     badgeClass: "bg-[var(--secondary)]/20 text-[var(--secondary)]"
   },
@@ -44,7 +44,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     tags: ["Node.js", "Express", "PostgreSQL", "JWT"],
     demoLink: "https://api-docs.nub-coder.tech/banking",
-    codeLink: "https://github.com/nub-coders/banking-api-service",
+    codeLink: "",
     badgeText: "API",
     badgeClass: "bg-blue-500/20 text-blue-400"
   },
@@ -55,7 +55,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     tags: ["Vue.js", "Django", "PostgreSQL", "Google Maps API"],
     demoLink: "https://realestate-demo.nub-coder.tech",
-    codeLink: "https://github.com/nub-coders/real-estate-platform",
+    codeLink: "",
     badgeText: "Web App",
     badgeClass: "bg-[var(--primary)]/20 text-[var(--primary)]"
   },
@@ -66,7 +66,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     tags: ["Flutter", "Firebase", "Google Places API", "Mapbox"],
     demoLink: "https://travel-companion-demo.nub-coder.tech",
-    codeLink: "https://github.com/nub-coders/travel-companion-app",
+    codeLink: "",
     badgeText: "Mobile App",
     badgeClass: "bg-[var(--secondary)]/20 text-[var(--secondary)]"
   },
@@ -77,7 +77,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     tags: ["Python", "FastAPI", "Redis", "Docker"],
     demoLink: "https://api-docs.nub-coder.tech/weather",
-    codeLink: "https://github.com/nub-coders/weather-data-api",
+    codeLink: "",
     badgeText: "API",
     badgeClass: "bg-blue-500/20 text-blue-400"
   },
@@ -110,7 +110,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     tags: ["Python", "Telegram Bot", "Music API", "Audio Processing"],
     demoLink: "https://t.me/nub_music_bot",
-    codeLink: "https://github.com/nub-coders/nub-music-bot",
+    codeLink: "",
     badgeText: "API",
     badgeClass: "bg-blue-500/20 text-blue-400"
   },
@@ -120,8 +120,8 @@ const projects: Project[] = [
     category: "mobile",
     image: "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     tags: ["Python", "Android", "Magisk", "Mobile Tools"],
-    demoLink: "https://github.com/nub-coders/MAGISK-FLASHER-V2/releases",
-    codeLink: "https://github.com/nub-coders/MAGISK-FLASHER-V2",
+    demoLink: "",
+    codeLink: "",
     badgeText: "Mobile App",
     badgeClass: "bg-[var(--secondary)]/20 text-[var(--secondary)]"
   },
@@ -131,8 +131,8 @@ const projects: Project[] = [
     category: "api",
     image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     tags: ["Python", "Security", "Password Generator", "CLI Tool"],
-    demoLink: "https://github.com/nub-coders/kixer#usage",
-    codeLink: "https://github.com/nub-coders/kixer",
+    demoLink: "",
+    codeLink: "",
     badgeText: "API",
     badgeClass: "bg-blue-500/20 text-blue-400"
   }
@@ -235,8 +235,8 @@ export default function Projects() {
                   <i className={`${project.category === "web" ? "fas fa-link" : project.category === "mobile" ? "fas fa-mobile-alt" : "fas fa-book"} mr-2`}></i>
                   {project.category === "web" ? "Live Demo" : project.category === "mobile" ? "App Store" : "API Docs"}
                 </a>
-                <a href={project.codeLink} className="px-3 py-2 rounded bg-[var(--dark)] border border-[var(--primary)]/20 hover:bg-[var(--darker)] transition-all duration-300">
-                  <i className="fab fa-github mr-2"></i> Code
+                  <a href={project.codeLink} className="px-3 py-2 rounded bg-[var(--dark)] border border-[var(--primary)]/20 hover:bg-[var(--darker)] transition-all duration-300">
+                    {/* GitHub button removed */}
                 </a>
               </div>
             </div>

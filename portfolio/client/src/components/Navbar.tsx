@@ -70,7 +70,7 @@ export default function Navbar() {
             <i className="fas fa-envelope"></i> Contact
           </a>
           <a 
-            href="https://dockers.nub-coder.tech/" 
+            href="https://dockers.nubcoder.com/" 
             target="_blank" 
             rel="noreferrer" 
             className="flex items-center gap-2 px-3 py-2 rounded-lg bg-[var(--primary)]/10 hover:bg-[var(--primary)]/20 transition-all duration-300 text-[var(--light)]/90 hover:text-[var(--light)]"
@@ -110,7 +110,7 @@ export default function Navbar() {
         <a href="#contact" onClick={closeMobileMenu} className="text-xl flex items-center gap-3">
           <i className="fas fa-envelope"></i> Contact
         </a>
-        <a href="https://dockers.nub-coder.tech/" target="_blank" rel="noreferrer" className="text-xl flex items-center gap-3">
+        <a href="https://dockers.nubcoder.com/" target="_blank" rel="noreferrer" className="text-xl flex items-center gap-3">
           <i className="fab fa-docker"></i> Docker Projects
           <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-[var(--secondary)] text-[var(--darker)]">New</span>
         </a>

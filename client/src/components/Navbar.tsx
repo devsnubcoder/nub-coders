@@ -37,8 +37,7 @@ export default function Navbar() {
     <>
       <nav className={`navbar fixed top-0 left-0 right-0 bg-[var(--dark)]/95 backdrop-blur-md py-4 px-6 md:px-10 flex justify-between items-center z-40 border-b border-[var(--primary)]/10 transition-all duration-300 ${isScrolled ? 'py-3 shadow-lg' : 'py-4'}`}>
         <div className="flex items-center gap-4">
-          <img src={profileImage} alt="Dev's Profile" className="w-10 h-10 rounded-full border-2 border-[var(--primary)]" />
-          <div className="text-2xl font-semibold bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] bg-clip-text text-transparent">DEV</div>
+          {/* Brand logo removed from header */}
         </div>
         
         
@@ -52,9 +51,6 @@ export default function Navbar() {
           </a>
           <a href="#skills" className="text-[var(--light)]/90 hover:text-[var(--light)] flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[var(--primary)]/10 transition-all duration-300">
             <i className="fas fa-code"></i> Skills
-          </a>
-          <a href="#projects" className="text-[var(--light)]/90 hover:text-[var(--light)] flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[var(--primary)]/10 transition-all duration-300">
-            <i className="fas fa-briefcase"></i> Projects
           </a>
         </div>
         
@@ -79,7 +75,7 @@ export default function Navbar() {
         <a href="#skills" onClick={closeMobileMenu} className="text-xl flex items-center gap-3">
           <i className="fas fa-code"></i> Skills
         </a>
-        
+        {/* Projects link removed from mobile menu */}
       </div>
     </>
   );

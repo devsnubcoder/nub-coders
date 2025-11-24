@@ -168,12 +168,30 @@ docker build -t portfolio .
 docker run -d \
   --name portfolio \
   --network web \
-  -e VIRTUAL_HOST=dev.nub-coder.tech \
-  -e LETSENCRYPT_HOST=dev.nub-coder.tech \
+  -e VIRTUAL_HOST=dev.nubcoder.com \
+  -e LETSENCRYPT_HOST=dev.nubcoder.com \
   portfolio
 ```
 
 This setup assumes you have an nginx-proxy with Let's Encrypt companion running on the `web` network for automatic SSL certificate generation and reverse proxy handling.
+
+### Docker Compose
+
+You can also use Docker Compose (recommended):
+
+1. Build and start
+```bash
+docker compose up -d --build
+```
+
+2. Stop
+```bash
+docker compose down
+```
+
+Notes:
+- The service joins the external `web` network used by `nginx-proxy`.
+- The compose file is pre-configured with `VIRTUAL_HOST` and `LETSENCRYPT_HOST` set to `dev.nubcoder.com`.
 
 ### Replit Deployment
 This project is optimized for Replit deployment:
@@ -277,7 +295,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **Live Demo**: [Portfolio Website](https://nub-coder.tech)
+- **Live Demo**: [Portfolio Website](https://nubcoder.com)
 - **GitHub**: [github.com/nub-coders](https://github.com/nub-coders/- **YouTube**: [youtube.com/@nub-coder](https://youtube.com/@nub-coder)
 - **Telegram**: [t.me/nub_coder_s](https://t.me/nub_coder_s)
 
@@ -285,7 +303,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need assistance:
 
-- **Email**: [dev@nub-coder.tech](mailto:dev@nub-coder.tech)
+- **Email**: [dev@nubcoder.com](mailto:dev@nubcoder.com)
 - **GitHub Issues**: [Create an issue](https://github.com/nub-coders/portfolio-website/issues)
 - **Telegram**: [t.me/nub_coder_s](https://t.me/nub_coder_s)
 

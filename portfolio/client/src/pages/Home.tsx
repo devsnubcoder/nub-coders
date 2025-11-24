@@ -100,12 +100,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="project-card">
               <i className="fas fa-code text-5xl text-[var(--primary)] mb-4"></i>
-              <h3 className="text-xl font-semibold mb-3">5+ Years Experience</h3>
+              <h3 className="text-xl font-semibold mb-3">4 Years Experience</h3>
               <p className="text-[var(--light)]/70">Delivering high-quality web solutions across various industries</p>
             </div>
             <div className="project-card">
               <i className="fas fa-project-diagram text-5xl text-[var(--primary)] mb-4"></i>
-              <h3 className="text-xl font-semibold mb-3">50+ Projects</h3>
+              <h3 className="text-xl font-semibold mb-3">35 Projects</h3>
               <p className="text-[var(--light)]/70">Successfully completed projects ranging from startups to enterprises</p>
             </div>
             <div className="project-card">
@@ -194,7 +194,7 @@ export default function Home() {
                   <i className="fab fa-youtube"></i> YouTube
                 </a>
                 <p className="flex items-center gap-3 text-[var(--light)]/70">
-                  <i className="fas fa-envelope"></i> dev@nub-coder.tech
+                  <i className="fas fa-envelope"></i> dev@nubcoder.com
                 </p>
               </div>
             </div>

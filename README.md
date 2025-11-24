@@ -7,15 +7,15 @@
 [![GitHub](https://img.shields.io/badge/GitHub-nub--coders-blue?logo=github&style=flat-square)](https://github.com/nub-coders)
 [![YouTube](https://img.shields.io/badge/YouTube-nub--coder-red?logo=youtube&style=flat-square)](https://youtube.com/@nub-coder)
 [![Telegram](https://img.shields.io/badge/Telegram-nub__coder__s-blue?logo=telegram&style=flat-square)](https://t.me/nub_coder_s)
-[![Email](https://img.shields.io/badge/Email-dev%40nub--coder.tech-orange?logo=gmail&style=flat-square)](mailto:dev@nub-coder.tech)
+[![Email](https://img.shields.io/badge/Email-dev%40nubcoder.com-orange?logo=gmail&style=flat-square)](mailto:dev@nubcoder.com)
 
 </div>
 
 ## 👨‍💻 About Me
 
-I'm a passionate Full Stack Developer with 3+ years of experience creating modern web applications. I specialize in building robust, user-friendly solutions that combine technical excellence with creative design. My approach focuses on developing scalable applications with clean, maintainable code.
+I'm a passionate Full Stack Developer with 4 years of experience creating modern web applications. I specialize in building robust, user-friendly solutions that combine technical excellence with creative design. My approach focuses on developing scalable applications with clean, maintainable code.
 
-- 🚀 Completed 30+ projects across various industries  
+- 🚀 Completed 35 projects across various industries  
 - 💡 Constantly exploring new technologies and frameworks  
 - 📝 Sharing knowledge through my YouTube channel  
 - 🌱 Always learning and improving my craft  

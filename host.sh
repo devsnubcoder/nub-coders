@@ -3,4 +3,4 @@ sudo apt update
 sudo apt install certbot python3-certbot-nginx
 
 # Get certificates for all domains
-#sudo certbot --nginx -d nub-coder.tech -d www.nub-coder.tech -d build.nub-coder.tech -d dockers.nub-coder.tech -d api.nub-coder.tech
+sudo certbot --nginx -d nubcoder.com -d www.nubcoder.com -d build.nubcoder.com -d dockers.nubcoder.com -d api.nubcoder.com

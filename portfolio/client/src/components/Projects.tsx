@@ -180,8 +180,8 @@ export default function Projects() {
                   <i className={`${project.category === "web" ? "fas fa-link" : project.category === "mobile" ? "fas fa-mobile-alt" : "fas fa-book"} mr-2`}></i>
                   {project.category === "web" ? "Live Demo" : project.category === "mobile" ? "App Store" : "API Docs"}
                 </a>
-                <a href={project.codeLink} className="px-3 py-2 rounded bg-[var(--dark)] border border-[var(--primary)]/20 hover:bg-[var(--darker)] transition-all duration-300">
-                  <i className="fab fa-github mr-2"></i> Code
+                  <a href={project.codeLink} className="px-3 py-2 rounded bg-[var(--dark)] border border-[var(--primary)]/20 hover:bg-[var(--darker)] transition-all duration-300">
+                    {/* GitHub button removed */}
                 </a>
               </div>
             </div>

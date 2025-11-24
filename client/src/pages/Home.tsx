@@ -140,15 +140,6 @@ export default function Home() {
               Telegram
             </a>
             <a 
-              href="https://github.com/nub-coders/" 
-              target="_blank" 
-              className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[var(--primary)]/10 hover:bg-[var(--primary)]/20 transition-all duration-300 transform hover:-translate-y-1"
-              rel="noreferrer"
-            >
-              <i className="fab fa-github"></i>
-              GitHub
-            </a>
-            <a 
               href="https://youtube.com/@nub-coder" 
               target="_blank" 
               className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[var(--primary)]/10 hover:bg-[var(--primary)]/20 transition-all duration-300 transform hover:-translate-y-1"
@@ -168,12 +159,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="project-card">
               <i className="fas fa-code text-5xl text-[var(--primary)] mb-4"></i>
-              <h3 className="text-xl font-semibold mb-3">5+ Years Experience</h3>
+              <h3 className="text-xl font-semibold mb-3">4 Years Experience</h3>
               <p className="text-[var(--light)]/70">Delivering high-quality web solutions across various industries</p>
             </div>
             <div className="project-card">
               <i className="fas fa-project-diagram text-5xl text-[var(--primary)] mb-4"></i>
-              <h3 className="text-xl font-semibold mb-3">50+ Projects</h3>
+              <h3 className="text-xl font-semibold mb-3">35 Projects</h3>
               <p className="text-[var(--light)]/70">Successfully completed projects ranging from startups to enterprises</p>
             </div>
             <div className="project-card">
@@ -223,9 +214,7 @@ export default function Home() {
             <div className="md:col-span-1">
               <h3 className="text-xl font-semibold mb-4">Connect</h3>
               <div className="space-y-3">
-                <a href="https://github.com/nub-coders/" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-[var(--light)]/70 hover:text-[var(--light)] transition-colors duration-300">
-                  <i className="fab fa-github"></i> GitHub
-                </a>
+                {/* GitHub button removed */}
                 <a href="https://t.me/nub_coder_s" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-[var(--light)]/70 hover:text-[var(--light)] transition-colors duration-300">
                   <i className="fab fa-telegram"></i> Telegram
                 </a>
@@ -233,7 +222,7 @@ export default function Home() {
                   <i className="fab fa-youtube"></i> YouTube
                 </a>
                 <p className="flex items-center gap-3 text-[var(--light)]/70">
-                  <i className="fas fa-envelope"></i> dev@nub-coder.tech
+                  <i className="fas fa-envelope"></i> dev@nubcoder.com
                 </p>
               </div>
             </div>
