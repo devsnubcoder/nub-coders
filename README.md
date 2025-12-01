@@ -114,7 +114,7 @@ A FastAPI-based service providing optimized YouTube video information extraction
 <div align="center">
   
 <!-- STATS_START -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nub-coders&show_icons=true&theme=tokyonight&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nub-coders&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=FFFFFF)
 <!-- STATS_END -->
 
 </div>
